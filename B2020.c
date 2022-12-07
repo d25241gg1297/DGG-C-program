@@ -3,7 +3,7 @@
 int main()
 {
 	int a, b, c, d, e;
-	scanf_s("%d %d %d %d %d", &a, &b, &c, &d, &e);
+	scanf_s("%d %d %d %d %d", &a, &b, &c, &d, &e);//网页上传时用scanf
 	int sum1 = a + b + c + d + e;
 	b += a / 3;
 	e += a / 3;
